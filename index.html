@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Links   -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Charts Sampels</title>
+  </head>
+  <body>
+    <!-- Bar Chart using Chart.js  -->
+    <div class="chart-container">
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <!-- Pure [HTML , CSS]  Chart  -->
+    <div class="skills-chart">
+      <h1 class="Header">My Skills</h1>
+      <ul class="skills-list">
+        <li class="skill-item">
+          <div class="skill-heading">
+            <h3>HTML5</h3>
+            <span>90%</span>
+          </div>
+          <span class="bar"><span class="html"></span></span>
+        </li>
+        <li class="skill-item">
+          <div class="skill-heading">
+            <h3>CSS3</h3>
+            <span>70%</span>
+          </div>
+          <span class="bar"><span class="css"></span></span>
+        </li>
+        <li class="skill-item">
+          <div class="skill-heading">
+            <h3>JS</h3>
+            <span>50%</span>
+          </div>
+          <span class="bar"><span class="js"></span></span>
+        </li>
+        <li class="skill-item">
+          <div class="skill-heading">
+            <h3>Typescript</h3>
+            <span>10%</span>
+          </div>
+          <span class="bar"><span class="ts"></span></span>
+        </li>
+      </ul>
+    </div>
+    <!-- Chart.js  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Main.js  -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
